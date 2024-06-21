@@ -6,5 +6,6 @@ services:
     startCommand: python3 bot.py
     buildCommand: pip3 install -U -r requirements.txt
     healthCheckPath: /
+    plan: free # optional (defaults to starter)
 
 #End of yaml
